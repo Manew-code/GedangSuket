@@ -1,0 +1,222 @@
+*{
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.spacer{
+    width: auto;
+    height: 100px;
+    background-color: #8ca8e8;
+    border: 1px solid #6696d0;
+}
+
+/* HEADER START */
+
+.header {
+    width: auto;
+    height: 100px;
+    background-color: rgb(135, 171, 234);
+    border: 1px solid #6696d0;
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-content-header-1{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    margin-right: 500px;
+    background-color: #6e8cce;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #4b77ac; 
+    border-radius: 10px;
+}
+
+.inner-content-header-2{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-about-base{
+    width: 60px;
+    height :27px;
+    background-color: #6384ca;
+    color: #eaeaea;
+    border: 0px;
+    border-radius: 5px;
+    border: 1px solid #4b77ac; 
+    cursor: pointer;
+}
+
+.btn-about-base a {
+    text-decoration: none;
+}
+
+.btn-ingfo :hover{
+    width: 65px;
+    background-color: #384b79;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.btn-about :hover{
+    width: 65px;
+    background-color: #384b79;
+    transition: all 0.4s;
+}
+
+.logo-header{
+    width: 100px;
+    height: 100px;
+    background-image: url(asset/logo\ laundry.png);
+    background-size: cover;
+    transform: scale(80%);
+}
+
+.text-header{
+    align-self: center;
+    padding-right: 40px;
+}
+/* HEADER END */
+
+
+/* MAIN START */
+.main-inner-content{
+    width: 300px;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.main-content{
+    width: 100%;
+    height: 700px;
+    background-color: #B2C5FFFF;
+    background-image: url(asset/background.png);
+    background-size: cover;
+}
+
+.logo-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(asset/logo\ laundry.png);
+    background-size: cover;
+}
+
+.welcoming-container{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcoming-container h1{
+    padding-top: 50px;
+}
+
+.btn-add-container{
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-add h1 {
+    color: #ffffff;
+}
+
+.btn-add-base{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #1091F4FF;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.btn-add-base:hover{
+    border-radius: 10px;
+    background-color: rgb(28, 84, 126);
+    cursor: pointer;
+}
+
+
+/* MAIN END */
+
+/* MID START */
+
+.middle-inner-content{
+    width: 300px;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.middle-content{
+    width: 100%;
+    height: 700px;
+    background-color: #B2C5FFFF;
+    background-image: url(asset/background.png);
+    background-size: cover;
+}
+
+.middle-inner-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.middle-inner-content-1{
+    width: 50%;
+    height: 600px;
+}
+
+.middle-inner-content-1 p{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.first-paragraph-middle{
+    padding-top: 100px;
+}
+
+.second-paragraph-middle{
+    padding-top: 50px;
+}
+
+.middle-inner-content-2{
+    width: 40%;
+    height: 500px;
+    background-image: url(asset/orang\ laundry\ 2.png);
+    background-size: cover;
+}
+
+
+/* MID END */
+
+/* FOOTER START */
+
+.footer {
+    width: auto;
+    height: 100px;
+    background-color: rgb(72, 107, 168);
+    border-bottom: 1px solid #eaeaea ;
+    font-size: 15px;
+}
+.text-footer{
+    text-align: center;
+}
+
+/* FOOTER END */
